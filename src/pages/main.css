@@ -1,4 +1,3 @@
-
 /* =========================
    Navbar
 ========================= */
@@ -42,10 +41,6 @@
    Navbar Links
 ========================= */
 
-.custom-navbar{
-  position: sticky;
-}
-
 .custom-navbar .nav-link {
   color: #cbd5e1 !important;
 
@@ -61,7 +56,9 @@
 }
 
 
-/* Hover */
+/* =========================
+   Navbar Hover
+========================= */
 
 .custom-navbar .nav-link:hover {
   color: white !important;
@@ -85,7 +82,7 @@
 }
 
 
-/* تغییر رنگ آیکون همبرگری */
+/* Hamburger Icon */
 
 .custom-navbar .navbar-toggler-icon {
   filter: invert(1);
@@ -93,7 +90,7 @@
 
 
 /* =========================
-   Mobile
+   Mobile Navbar
 ========================= */
 
 @media (max-width: 990px) {
@@ -114,38 +111,42 @@
 }
 
 
-
-
 /* =========================
-   Headings
+   Content
 ========================= */
 
 .content h1 {
   font-size: 36px;
   font-weight: 700;
+
   margin-bottom: 20px;
+
   color: #0f172a;
 }
 
 .content h2 {
   font-size: 28px;
   font-weight: 600;
+
   color: #0f172a;
 }
 
 .content p {
   color: #64748b;
+
   line-height: 1.8;
 }
 
 
 /* =========================
-   Links
+   Content Links
 ========================= */
 
 .content a {
   color: #0284c7;
+
   text-decoration: none;
+
   transition: 0.3s;
 }
 
@@ -155,7 +156,7 @@
 
 
 /* =========================
-   Mobile
+   Mobile Content
 ========================= */
 
 @media (max-width: 768px) {
@@ -174,6 +175,7 @@
 
 }
 
+
 /* =========================
    Footer
 ========================= */
@@ -181,16 +183,25 @@
 .sky-footer {
   margin-top: 80px;
   padding: 55px 0 20px;
+
   background: #0f172a;
+
   color: #cbd5e1;
 }
 
+
+/* Footer Logo */
+
 .footer-logo {
   display: inline-block;
+
   color: white !important;
+
   font-size: 27px;
   font-weight: 700;
+
   text-decoration: none;
+
   margin-bottom: 15px;
 }
 
@@ -198,21 +209,35 @@
   color: #38bdf8;
 }
 
+
+/* Footer Description */
+
 .footer-description {
   max-width: 330px;
+
   color: #94a3b8 !important;
+
   line-height: 1.8;
 }
 
+
+/* Footer Titles */
+
 .footer-title {
   color: white;
+
   font-size: 17px;
   font-weight: 600;
+
   margin-bottom: 20px;
 }
 
+
+/* Footer Links */
+
 .footer-links {
   list-style: none;
+
   padding: 0;
   margin: 0;
 }
@@ -223,40 +248,65 @@
 
 .footer-links a {
   color: #94a3b8 !important;
+
   text-decoration: none;
+
   transition: 0.3s;
 }
 
 .footer-links a:hover {
   color: #38bdf8 !important;
+
   padding-left: 5px;
 }
+
+
+/* Footer Contact */
 
 .footer-contact {
   color: #94a3b8 !important;
 }
 
+
+/* Footer Line */
+
 .footer-line {
   border-color: rgba(255, 255, 255, 0.1);
+
   margin: 40px 0 20px;
 }
 
+
+/* Footer Bottom */
+
 .footer-bottom {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
 }
 
 .footer-bottom p {
   margin: 0;
+
   color: #64748b !important;
+
   font-size: 14px;
 }
 
+
+/* =========================
+   Mobile Footer
+========================= */
+
 @media (max-width: 768px) {
+
   .footer-bottom {
     flex-direction: column;
+
     gap: 10px;
+
     text-align: center;
   }
+
 }
