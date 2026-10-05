@@ -42,6 +42,10 @@
    Navbar Links
 ========================= */
 
+.custom-navbar{
+  position: sticky;
+}
+
 .custom-navbar .nav-link {
   color: #cbd5e1 !important;
 
