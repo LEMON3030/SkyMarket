@@ -9,11 +9,11 @@
 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 
-  position: sticky;
-  top: 0;
   z-index: 1000;
 }
-
+.content {
+  padding-top: 80px;
+}
 
 /* =========================
    Logo
@@ -93,7 +93,7 @@
    Mobile Navbar
 ========================= */
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
 
   .custom-navbar .navbar-nav {
     margin-top: 15px;
@@ -102,6 +102,7 @@
     background: rgba(30, 41, 59, 0.8);
 
     border-radius: 12px;
+
   }
 
   .custom-navbar .nav-link {
