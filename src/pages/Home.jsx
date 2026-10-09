@@ -63,7 +63,8 @@ export default function Home() {
           {message}
         </p>
       )}
-
+      <br />
+      <br />
       {/* Carousel */}
       {total > 0 && (
         <div className="container mt-4">
